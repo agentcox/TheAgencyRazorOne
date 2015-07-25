@@ -1,0 +1,313 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DOORDIALOG DIALOG DISCARDABLE  0, 0, 172, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Create/Edit Door"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        MATERIALBOX,15,20,85,55,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        INTEGRITYBOX,15,50,50,15,ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNLEFT | UDS_AUTOBUDDY | UDS_ARROWKEYS,65,50,10,
+                    15
+    COMBOBOX        LOCKTYPEBOX,15,90,85,55,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        LOCKRINGSBOX,15,120,50,15,ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN2,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNLEFT | UDS_AUTOBUDDY | UDS_ARROWKEYS,65,120,10,
+                    15
+    EDITTEXT        CRYPTOLEVELBOX,95,120,50,15,ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN3,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNLEFT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_HOTTRACK,145,120,11,15
+    DEFPUSHBUTTON   "OK",IDOK,10,165,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,105,165,50,14
+    LTEXT           "Lock Type:",IDC_STATIC,15,80,85,10
+    LTEXT           "# of Lock Rings:",IDC_STATIC,15,110,55,10
+    LTEXT           "Crypto Level:",IDC_STATIC,95,110,55,10
+    LTEXT           "Door Material:",IDC_STATIC,15,10,85,10
+    LTEXT           "Door Integrity:",IDC_STATIC,15,40,55,10
+    LTEXT           "(Max 10)",IDC_STATIC,25,135,30,10
+    LTEXT           "(Max 10)",IDC_STATIC,105,135,30,10
+    LTEXT           "(Max 100)",IDC_STATIC,20,65,35,10
+END
+
+MAINMENUDIALOG DIALOG DISCARDABLE  0, 0, 217, 181
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "The Agency: AOTS - Compound Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Create A New Map",NEWMAPBUTTON,60,20,100,35
+    PUSHBUTTON      "Load An Existing Map",LOADMAPBUTTON,60,76,100,35
+    PUSHBUTTON      "Quit",QUITBUTTON,31,145,155,25
+END
+
+VEHICLEDIALOG DIALOG DISCARDABLE  0, 0, 302, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Create/Edit Vehicle"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        VEHICLETYPEBOX,5,20,85,50,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        ARMORLEVELBOX,5,50,85,65,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        FUELINTEGRITYBOX,5,80,40,15,ES_AUTOHSCROLL
+    CONTROL         "Spin3",IDC_SPIN3,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,45,80,11,15
+    DEFPUSHBUTTON   "OK",IDOK,80,135,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,245,135,50,14
+    LTEXT           "Vehicle Type:",IDC_STATIC,5,10,45,10
+    LTEXT           "Armor Strength:",IDC_STATIC,5,40,60,10
+    LTEXT           "Fuel Tank Integrity:",IDC_STATIC,5,70,80,10
+    LTEXT           "(Max 100)",IDC_STATIC,10,95,35,10
+    EDITTEXT        WHEELSREMAININGBOX,5,120,40,15,ES_AUTOHSCROLL
+    CONTROL         "Spin3",IDC_SPIN4,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,45,120,11,15
+    LTEXT           "Wheels Remaining",IDC_STATIC,5,110,80,10
+    LTEXT           "(Max 4)",IDC_STATIC,10,135,35,10
+    CONTROL         "C4 Attached",RIGGEDCHECKBOX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,110,50,70,15
+    CONTROL         "Leaking Fuel",LEAKINGCHECKBOX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,110,20,70,15
+    CONTROL         "Fuel Disintegrated",JELLIEDCHECKBOX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,110,35,70,15
+    CONTROL         "Front Windshield",WINDOWCHECKBOX1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,205,20,80,15
+    CONTROL         "Rear Windshield",WINDOWCHECKBOX6,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,205,105,80,15
+    CONTROL         "Front Drivers Side",WINDOWCHECKBOX2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,205,37,80,15
+    CONTROL         "Front Passengers Side",WINDOWCHECKBOX3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,205,54,85,15
+    CONTROL         "Rear Drivers Side",WINDOWCHECKBOX4,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,205,71,70,15
+    CONTROL         "Rear Passengers Side",WINDOWCHECKBOX5,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,205,88,85,15
+    CONTROL         "Front Left",BRAKECHECKBOX1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,90,44,15
+    CONTROL         "Front Right",BRAKECHECKBOX2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,105,49,15
+    CONTROL         "Back Left",BRAKECHECKBOX3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,140,90,45,15
+    CONTROL         "Back Right",BRAKECHECKBOX4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,140,105,50,15
+    GROUPBOX        "Windows Intact",IDC_STATIC,200,10,95,115
+    GROUPBOX        "Modifiers",IDC_STATIC,105,10,90,60
+    GROUPBOX        "Brake Lines Intact",IDC_STATIC,80,80,115,45
+    DEFPUSHBUTTON   "Random",RANDOMVEHICLEBUTTON,165,135,50,14
+END
+
+NEWCOMPOUNDDIALOG DIALOG DISCARDABLE  0, 0, 262, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create New Compound"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,205,145,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,205,162,50,14
+    LTEXT           "Width",IDC_STATIC,10,25,25,8
+END
+
+ARMORYDIALOG DIALOG DISCARDABLE  0, 0, 192, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Armory Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        ARMORYTYPEBOX,60,20,75,75,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        ARMORYRESTOCKBOX,25,45,45,15,ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,70,45,10,
+                    15
+    DEFPUSHBUTTON   "OK",IDOK,5,75,50,14
+    DEFPUSHBUTTON   "Random",RANDOMBUTTON,70,75,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,135,75,50,14
+    LTEXT           "Type",IDC_STATIC,60,10,30,10
+    LTEXT           "Restocks",IDC_STATIC,25,35,80,10
+    CONTROL         "Restockable",ARMORYRESTOCKCHECKBOX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,100,45,75,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    DOORDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 165
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    MAINMENUDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    VEHICLEDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 295
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    NEWCOMPOUNDDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 255
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    ARMORYDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+DOORDIALOG DLGINIT
+BEGIN
+    MATERIALBOX, 0x403, 6, 0
+0x4c47, 0x5341, 0x0053, 
+    MATERIALBOX, 0x403, 5, 0
+0x4f57, 0x444f, "\000" 
+    MATERIALBOX, 0x403, 6, 0
+0x454d, 0x4154, 0x004c, 
+    MATERIALBOX, 0x403, 11, 0
+0x4552, 0x4e49, 0x4f46, 0x4352, 0x4445, "\000" 
+    LOCKTYPEBOX, 0x403, 5, 0
+0x4f4e, 0x454e, "\000" 
+    LOCKTYPEBOX, 0x403, 7, 0
+0x414d, 0x554e, 0x4c41, "\000" 
+    LOCKTYPEBOX, 0x403, 14, 0
+0x5243, 0x5059, 0x4f54, 0x5247, 0x5041, 0x4948, 0x0043, 
+    0
+END
+
+VEHICLEDIALOG DLGINIT
+BEGIN
+    VEHICLETYPEBOX, 0x403, 4, 0
+0x4143, 0x0052, 
+    VEHICLETYPEBOX, 0x403, 6, 0
+0x5254, 0x4355, 0x004b, 
+    VEHICLETYPEBOX, 0x403, 4, 0
+0x4156, 0x004e, 
+    ARMORLEVELBOX, 0x403, 8, 0
+0x454c, 0x4556, 0x204c, 0x0049, 
+    ARMORLEVELBOX, 0x403, 9, 0
+0x454c, 0x4556, 0x204c, 0x4949, "\000" 
+    ARMORLEVELBOX, 0x403, 10, 0
+0x454c, 0x4556, 0x204c, 0x4949, 0x0049, 
+    ARMORLEVELBOX, 0x403, 9, 0
+0x454c, 0x4556, 0x204c, 0x5649, "\000" 
+    ARMORLEVELBOX, 0x403, 8, 0
+0x454c, 0x4556, 0x204c, 0x0056, 
+    0
+END
+
+ARMORYDIALOG DLGINIT
+BEGIN
+    ARMORYTYPEBOX, 0x403, 7, 0
+0x4950, 0x5453, 0x4c4f, "\000" 
+    ARMORYTYPEBOX, 0x403, 4, 0
+0x4d53, 0x0047, 
+    ARMORYTYPEBOX, 0x403, 6, 0
+0x4952, 0x4c46, 0x0045, 
+    ARMORYTYPEBOX, 0x403, 6, 0
+0x4548, 0x5641, 0x0059, 
+    ARMORYTYPEBOX, 0x403, 9, 0
+0x5247, 0x4e45, 0x4441, 0x5345, "\000" 
+    ARMORYTYPEBOX, 0x403, 7, 0
+0x4152, 0x444e, 0x4d4f, "\000" 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

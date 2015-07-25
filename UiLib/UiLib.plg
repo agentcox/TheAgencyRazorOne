@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: UiLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP9303.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/UiLib.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\The Agency\TextBased\sound.cpp"
+"C:\The Agency\TextBased\ui.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP9303.TMP" 
+Creating command line "link.exe -lib /nologo /out:"Release\UiLib.lib"  ".\Release\sound.obj" ".\Release\ui.obj" "
+<h3>Output Window</h3>
+Compiling...
+sound.cpp
+ui.cpp
+C:\The Agency\TextBased\ui.cpp(88) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+C:\The Agency\TextBased\ui.cpp(107) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+Creating library...
+
+
+
+<h3>Results</h3>
+UiLib.lib - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

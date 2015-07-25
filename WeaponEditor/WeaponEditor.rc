@@ -1,0 +1,494 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+MAINMENUDIALOG DIALOGEX 0, 0, 395, 171
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_SETFOREGROUND | DS_NOFAILCREATE | 
+    WS_VISIBLE | WS_CAPTION
+CAPTION "The Agency - Weapon And Ammunition Editor"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "WEAPON EDITOR",CHOOSEWEAPONED_BUTTON,30,20,121,27
+    PUSHBUTTON      "AMMUNITION EDITOR",CHOOSEAMMOED_BUTTON,30,60,121,27
+    DEFPUSHBUTTON   "QUIT",IDQUIT,65,100,50,14
+    CONTROL         112,MAINMENUBOTTOMCAPTION,"Static",SS_BITMAP | SS_SUNKEN | 
+                    WS_BORDER,190,5,198,160
+    CTEXT           "Version 1.24\nCreated By Charles Cox",
+                    MAINMENUBOTTOMCAPTION,10,130,160,25,0,WS_EX_TRANSPARENT
+END
+
+WEAPONDIALOG DIALOG DISCARDABLE  0, 0, 512, 342
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_SETFOREGROUND | DS_NOFAILCREATE | 
+    WS_VISIBLE | WS_CAPTION
+CAPTION "The Agency - Weapon Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        SHORTNAMEBOX,10,25,85,15
+    EDITTEXT        LONGNAMEBOX,10,59,125,15
+    CONTROL         "DSA Only",DSAONLYCHECK,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFT | BS_VCENTER | WS_TABSTOP,120,25,50,15
+    COMBOBOX        MAINAMMOBOX,190,25,130,105,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        MAXAMMOBOX,148,60,30,15,ES_AUTOHSCROLL
+    COMBOBOX        FILINGTYPEBOX,10,99,95,70,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        CLASSTYPEBOX,10,134,85,75,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_TABSTOP
+    COMBOBOX        AMMOLOADTYPEBOX,10,169,65,80,CBS_DROPDOWNLIST | CBS_SORT | 
+                    CBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    COMBOBOX        DRUGTYPEBOX,116,115,125,80,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        DRUGDOSESBOX,251,114,30,15,ES_NUMBER
+    CONTROL         "Shoot",WEAPONACTIONCHECKSHOOT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,165,40,9
+    CONTROL         "Hit",WEAPONACTIONCHECKHIT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,174,40,10
+    CONTROL         "Cut",WEAPONACTIONCHECKCUT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,95,184,40,8
+    CONTROL         "Throw",WEAPONACTIONCHECKTHROW,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,135,165,40,9
+    CONTROL         "Drug",WEAPONACTIONCHECKDRUG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,135,174,40,10
+    CONTROL         "Snipe",WEAPONACTIONCHECKSNIPE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,135,184,40,10
+    CONTROL         "Laser Sight",MODIFIERCHECKLASERSIGHT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,195,164,50,10
+    CONTROL         "Flash Suppressor",MODIFIERCHECKFLASHSUPPRESSOR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,195,174,70,10
+    CONTROL         "Silencer",MODIFIERCHECKSILENCER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,195,184,45,10
+    EDITTEXT        DESCBOX,197,59,151,28,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    EDITTEXT        FREQUENCYBOX,10,315,40,15,ES_NUMBER
+    EDITTEXT        FLASHLEVELBOX,65,315,40,15,ES_NUMBER
+    EDITTEXT        SOUNDLEVELBOX,121,315,40,15,ES_NUMBER
+    EDITTEXT        ROUNDSPERTURNBOX,180,315,40,15,ES_NUMBER
+    EDITTEXT        BASEACCURACYBOX,240,315,40,15,ES_NUMBER
+    EDITTEXT        FIRESOUNDBOX,22,212,200,15,ES_AUTOHSCROLL
+    EDITTEXT        THROWSOUNDBOX,22,247,200,15,ES_AUTOHSCROLL
+    EDITTEXT        HITSOUNDBOX,22,281,200,15,ES_AUTOHSCROLL
+    EDITTEXT        DROPSOUNDBOX,260,212,200,15,ES_AUTOHSCROLL
+    EDITTEXT        RELOADSOUNDBOX,260,247,200,15,ES_AUTOHSCROLL
+    EDITTEXT        BREAKSOUNDBOX,260,282,200,15,ES_AUTOHSCROLL
+    EDITTEXT        WEIGHTONESBOX,338,300,15,15,ES_NUMBER
+    EDITTEXT        WEIGHTTENTHSBOX,363,300,15,15,ES_NUMBER
+    PUSHBUTTON      "Clear All Fields",CLEARBUTTON,395,5,110,20,NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Register with R&&D as New",SUBMITNEWBUTTON,395,30,110,
+                    20
+    PUSHBUTTON      "Register with R&&D as Modified",SUBMITMODIFIEDBUTTON,
+                    395,55,110,20
+    PUSHBUTTON      "Quit And Save",IDQUITSAVE,403,301,84,14
+    PUSHBUTTON      "Quit And Do Not Save",IDQUITNOSAVE,403,316,84,14
+    PUSHBUTTON      "Delete Selected Weapon",REMOVEBUTTON2,360,129,105,20,
+                    BS_CENTER | BS_VCENTER
+    COMBOBOX        WEAPONLOADBOX,325,99,180,90,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Short Name:",IDC_STATIC,10,10,85,10
+    LTEXT           "Long Name:",IDC_STATIC,10,44,85,10
+    LTEXT           "File Under:",IDC_STATIC,10,84,85,10
+    LTEXT           "Weapon Class:",IDC_STATIC,10,119,85,10
+    LTEXT           "Ammo Load Type:",IDC_STATIC,10,154,85,10
+    LTEXT           "Frequency:",IDC_STATIC,10,300,40,10
+    LTEXT           "Description:",IDC_STATIC,197,45,85,10
+    CONTROL         "Base Accuracy:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,240,300,60,10
+    CONTROL         "Rounds Per Turn:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,180,300,60,10
+    LTEXT           "Total Weapons In DSA Arsenal:",IDC_STATIC,345,164,105,
+                    10
+    EDITTEXT        TOTALWEAPONSBOX,455,164,30,12,ES_READONLY | ES_NUMBER
+    LTEXT           "Current Weapon ID Being Edited:",IDC_STATIC,340,179,110,
+                    10
+    EDITTEXT        CURRENTWEAPONBOX,455,179,30,12,ES_READONLY | ES_NUMBER
+    LTEXT           "Weapon To Edit",IDC_STATIC,385,79,55,10
+    CONTROL         "Flash Level:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,65,300,55,10
+    CONTROL         "Sound Level:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,121,300,55,10
+    CONTROL         "Actions Allowed:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,95,154,55,10
+    LTEXT           "Main Ammo Type:",IDC_STATIC,190,10,75,10
+    LTEXT           "Modifiers Accepted:",IDC_STATIC,196,154,75,10
+    LTEXT           "lbs.",IDC_STATIC,381,305,16,10
+    CTEXT           ".",IDC_STATIC,353,305,10,10
+    LTEXT           "Weight:",IDC_STATIC,303,300,25,10
+    LTEXT           "Drug Type:",IDC_STATIC,126,99,40,10
+    LTEXT           "Drug Doses:",IDC_STATIC,251,99,45,10
+    LTEXT           "Max Ammo:",IDC_STATIC,148,44,41,10
+    LTEXT           """Fire"" Sound String:",IDC_STATIC,22,196,170,10
+    LTEXT           """Hit"" Sound String:",IDC_STATIC,22,266,170,10
+    LTEXT           """Silenced Fire"" Sound String:",IDC_STATIC,22,231,170,
+                    10
+    LTEXT           """Drop"" Sound String:",IDC_STATIC,260,197,170,10
+    LTEXT           """Reload"" Sound String:",IDC_STATIC,260,232,170,10
+    LTEXT           """Break/Jam"" Sound String:",IDC_STATIC,260,267,170,10
+END
+
+MAINAMMODIALOG DIALOG DISCARDABLE  0, 0, 412, 271
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_SETFOREGROUND | DS_NOFAILCREATE | 
+    WS_VISIBLE | WS_CAPTION
+CAPTION "The Agency - Main Ammo Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        MAINAMMOBOX,10,65,160,85,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        AMMONAME,10,105,145,15,ES_AUTOHSCROLL
+    COMBOBOX        SUBAMMOTYPE,10,145,100,60,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Edit Sub-Ammo Types",EDITSUBAMMOBUTTON,10,205,140,40
+    PUSHBUTTON      "Remove This Type",REMOVEBUTTON,10,10,110,20
+    PUSHBUTTON      "Clear All Fields",CLEARBUTTON,150,10,110,20,NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Register with R&&D as New",SUBMITNEWBUTTON,290,10,110,
+                    20
+    PUSHBUTTON      "Quit And Save",IDQUITSAVE,205,245,84,14
+    PUSHBUTTON      "Quit And Do Not Save",IDQUITNOSAVE,320,245,84,14
+    CONTROL         112,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN | 
+                    WS_BORDER,205,80,198,160
+    LTEXT           "Total Ammo Types in DSA Arsenal:",IDC_STATIC,210,50,120,
+                    10
+    EDITTEXT        TOTALAMMOBOX,335,50,30,10,ES_READONLY | ES_NUMBER
+    LTEXT           "Current Ammo Type Being Edited:",IDC_STATIC,210,65,120,
+                    10
+    EDITTEXT        CURRENTAMMOBOX,335,65,30,10,ES_READONLY | ES_NUMBER
+    LTEXT           "Main Ammo To Edit:",IDC_STATIC,10,55,160,10
+    LTEXT           "Ammo Type:",MAINAMMOTYPEBOX,10,135,130,10
+    LTEXT           "Name of Ammo:",IDC_STATIC,10,90,145,10
+    LTEXT           "Sub Ammo Types For This Type:",IDC_STATIC,10,190,105,10
+    EDITTEXT        SUBAMMOTYPESBOX,120,190,30,10,ES_READONLY | ES_NUMBER
+END
+
+SHELLDIALOG DIALOGEX 0, 0, 357, 281
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_SETFOREGROUND | DS_NOFAILCREATE | 
+    WS_VISIBLE | WS_CAPTION
+CAPTION "The Agency - Shell SubAmmo Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Sub - Ammo Type To Edit",IDC_STATIC,5,20,120,10,
+                    WS_TABSTOP
+    LTEXT           "Main Ammo Being Edited:",IDC_STATIC,185,20,160,10,
+                    WS_TABSTOP
+    EDITTEXT        MAINAMMONAME,185,36,160,15,ES_READONLY
+    LTEXT           "SubAmmo Short Name:",IDC_STATIC,5,55,120,10,WS_TABSTOP
+    LTEXT           "SubAmmo Long Name:",IDC_STATIC,5,86,120,10,WS_TABSTOP,
+                    WS_EX_TRANSPARENT
+    LTEXT           "SubAmmo Description:",IDC_STATIC,5,116,120,10,
+                    WS_TABSTOP
+    LTEXT           "Frequency:",IDC_STATIC,174,56,40,10,WS_TABSTOP
+    CONTROL         "Spread:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP | WS_TABSTOP,229,56,55,10
+    CONTROL         "AP Level:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP | WS_TABSTOP,174,92,55,10
+    CONTROL         "Energy:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP | WS_TABSTOP,233,92,60,10
+    CONTROL         "Damage:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP | WS_TABSTOP,293,92,50,10
+    CONTROL         "Sound String:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP | WS_TABSTOP,5,167,50,10
+    PUSHBUTTON      "Clear Fields",CLEARFIELDSBUTTON,260,182,80,15
+    PUSHBUTTON      "Remove This Type",REMOVEBUTTON,10,222,100,20
+    PUSHBUTTON      "Submit As New SubAmmo",SUBMITNEWBUTTON,127,222,100,20
+    PUSHBUTTON      "Submit As Modified SubAmmo",SUBMITMODIFIEDBUTTON,244,
+                    222,100,20
+    PUSHBUTTON      "Quit And Save",IDQUITSAVE,80,251,84,14
+    PUSHBUTTON      "Quit And Do Not Save",IDQUITNOSAVE,195,251,84,14
+    EDITTEXT        SHELLFREQUENCYBOX,174,72,40,15,ES_NUMBER
+    EDITTEXT        SHELLSPREADBOX,229,72,40,15,ES_NUMBER
+    EDITTEXT        SHELLAPBOX,174,108,40,15,ES_NUMBER
+    EDITTEXT        SHELLENERGYBOX,233,108,40,15,ES_NUMBER
+    EDITTEXT        SHELLDAMAGEBOX,293,108,40,15,ES_NUMBER
+    COMBOBOX        SHELLEDITCOMBOBOX,5,36,160,75,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        SHELLSHORTNAME,5,65,85,15
+    CONTROL         "DSA Only",SHELLCHECKDSAONLY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,110,65,50,15
+    EDITTEXT        SHELLLONGNAME,5,96,130,15
+    EDITTEXT        SHELLDESCBOX,5,130,245,30,ES_MULTILINE | ES_WANTRETURN
+    EDITTEXT        SHELLSOUNDBOX,5,182,180,15
+END
+
+EXPLOSIVEDIALOG DIALOG DISCARDABLE  0, 0, 357, 330
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_SETFOREGROUND | DS_NOFAILCREATE | 
+    WS_VISIBLE | WS_CAPTION
+CAPTION "The Agency - Explosive SubAmmo Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        EXPLOSIVEEDITCOMBOBOX,5,31,160,75,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        EXPLOSIVESHORTNAME,5,60,85,15
+    CONTROL         "DSA Only",EXPLOSIVECHECKDSAONLY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,110,60,50,15
+    EDITTEXT        EXPLOSIVELONGNAME,5,95,165,15
+    EDITTEXT        EXPLOSIVEDESCBOX,5,130,245,31,ES_MULTILINE | 
+                    ES_WANTRETURN
+    EDITTEXT        EXPLOSIVEFREQUENCYBOX,280,73,40,15,ES_NUMBER
+    EDITTEXT        EXPLOSIVEDELAYBOX,280,108,40,15,ES_NUMBER
+    EDITTEXT        EXPLOSIVERANGEBOX,280,145,40,15,ES_NUMBER
+    EDITTEXT        EXPLOSIVEINITRADIUSBOX,30,181,40,15,ES_NUMBER
+    EDITTEXT        EXPLOSIVEINITSTRENGTHBOX,85,181,40,15,ES_NUMBER
+    COMBOBOX        EXPLOSIVEINITTYPEBOX,30,220,120,55,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        EXPLOSIVELATENTRADIUSBOX,195,181,40,15,ES_NUMBER
+    EDITTEXT        EXPLOSIVELATENTTIMEBOX,255,181,40,15,ES_NUMBER
+    COMBOBOX        EXPLOSIVELATENTTYPEBOX,195,220,130,55,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        EXPLOSIVESOUNDBOX,69,250,180,15
+    PUSHBUTTON      "Clear Fields",CLEARFIELDSBUTTON,262,250,80,15
+    PUSHBUTTON      "Remove This Type",REMOVEBUTTON,10,275,100,20
+    PUSHBUTTON      "Submit As New SubAmmo",SUBMITNEWBUTTON,127,275,100,20
+    PUSHBUTTON      "Submit As Modified SubAmmo",SUBMITMODIFIEDBUTTON,244,
+                    275,100,20
+    PUSHBUTTON      "Quit And Save",IDQUITSAVE,80,304,84,14
+    PUSHBUTTON      "Quit And Do Not Save",IDQUITNOSAVE,195,304,84,14
+    LTEXT           "Sub - Ammo Type To Edit",IDC_STATIC,5,15,120,10
+    LTEXT           "SubAmmo Short Name:",IDC_STATIC,5,50,120,10
+    LTEXT           "SubAmmo Long Name:",IDC_STATIC,5,80,120,10
+    LTEXT           "SubAmmo Description:",IDC_STATIC,5,116,120,10
+    LTEXT           "Frequency:",IDC_STATIC,280,57,40,10
+    CONTROL         "Init Radius:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,30,165,50,10
+    CONTROL         "Range:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,280,129,60,10
+    CONTROL         "Latent Radius:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,195,165,55,10
+    CONTROL         "Delay:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,280,92,55,10
+    CONTROL         "Sound String:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,10,252,50,10
+    EDITTEXT        MAINAMMONAME,185,36,160,15,ES_READONLY
+    LTEXT           "Main Ammo Being Edited:",IDC_STATIC,185,20,160,10
+    CONTROL         "Init Strength:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,85,165,60,10
+    CONTROL         "Init Type:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,30,210,50,10
+    CONTROL         "Latent Time:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,255,165,55,10
+    CONTROL         "Latent Type:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,195,210,50,10
+END
+
+BULLETDIALOG DIALOG DISCARDABLE  0, 0, 357, 281
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_SETFOREGROUND | DS_NOFAILCREATE | 
+    WS_VISIBLE | WS_CAPTION
+CAPTION "The Agency - Bullet SubAmmo Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Quit And Do Not Save",IDQUITNOSAVE,197,249,84,14,NOT 
+                    WS_TABSTOP
+    COMBOBOX        BULLETEDITCOMBOBOX,5,26,160,75,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        BULLETSHORTNAME,5,55,85,15
+    CONTROL         "DSA Only",BULLETCHECKDSAONLY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,110,55,50,15
+    EDITTEXT        BULLETLONGNAME,5,89,123,15
+    EDITTEXT        BULLETDESCBOX,5,130,245,31,ES_MULTILINE | ES_WANTRETURN
+    EDITTEXT        BULLETFREQUENCYBOX,168,74,40,15,ES_NUMBER
+    EDITTEXT        BULLETAPBOX,223,74,40,15,ES_NUMBER
+    EDITTEXT        BULLETENERGYBOX,167,108,40,15,ES_NUMBER
+    EDITTEXT        BULLETDAMAGEBOX,227,108,40,15,ES_NUMBER
+    EDITTEXT        BULLETLATENTDAMAGEBOX,289,108,40,15,ES_NUMBER
+    EDITTEXT        BULLETSOUNDBOX,7,180,180,15
+    PUSHBUTTON      "Clear Fields",CLEARFIELDSBUTTON,262,180,80,15
+    PUSHBUTTON      "Remove This Type",REMOVEBUTTON,12,220,100,20
+    PUSHBUTTON      "Submit As New SubAmmo",SUBMITNEWBUTTON,129,220,100,20
+    PUSHBUTTON      "Submit As Modified SubAmmo",SUBMITMODIFIEDBUTTON,246,
+                    220,100,20
+    PUSHBUTTON      "Quit And Save",IDQUITSAVE,82,249,84,14,NOT WS_TABSTOP
+    EDITTEXT        MAINAMMONAME,185,36,160,15,ES_READONLY
+    LTEXT           "Sub - Ammo Type To Edit",IDC_STATIC,5,10,120,10
+    LTEXT           "SubAmmo Short Name:",IDC_STATIC,5,44,120,10
+    LTEXT           "SubAmmo Long Name:",IDC_STATIC,5,75,120,10
+    LTEXT           "SubAmmo Description:",IDC_STATIC,5,116,120,10
+    LTEXT           "Frequency:",IDC_STATIC,168,58,40,10
+    CONTROL         "Damage:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,227,92,50,10
+    CONTROL         "Energy:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,167,92,60,10
+    CONTROL         "Latent Damage:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,289,92,55,10
+    CONTROL         "AP Level:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,223,58,55,10
+    CONTROL         "Sound String:",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,7,165,50,10
+    LTEXT           "Main Ammo Being Edited:",IDC_STATIC,185,20,160,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    MAINMENUDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 388
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+
+    WEAPONDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 505
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 335
+    END
+
+    MAINAMMODIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 405
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+    END
+
+    SHELLDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 350
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 274
+    END
+
+    EXPLOSIVEDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 350
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 323
+    END
+
+    BULLETDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 350
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 274
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "vdgclassifiedlogo_copy.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+MAINAMMODIALOG DLGINIT
+BEGIN
+    SUBAMMOTYPE, 0x403, 6, 0
+0x4853, 0x4c45, 0x004c, 
+    SUBAMMOTYPE, 0x403, 7, 0
+0x5542, 0x4c4c, 0x5445, "\000" 
+    SUBAMMOTYPE, 0x403, 10, 0
+0x5845, 0x4c50, 0x534f, 0x5649, 0x0045, 
+    0
+END
+
+EXPLOSIVEDIALOG DLGINIT
+BEGIN
+    EXPLOSIVEINITTYPEBOX, 0x403, 5, 0
+0x4f4e, 0x454e, "\000" 
+    EXPLOSIVEINITTYPEBOX, 0x403, 11, 0
+0x4f43, 0x434e, 0x5355, 0x4953, 0x4e4f, "\000" 
+    EXPLOSIVEINITTYPEBOX, 0x403, 6, 0
+0x4c46, 0x5341, 0x0048, 
+    EXPLOSIVEINITTYPEBOX, 0x403, 9, 0
+0x5550, 0x434e, 0x5554, 0x4552, "\000" 
+    EXPLOSIVELATENTTYPEBOX, 0x403, 5, 0
+0x4f4e, 0x454e, "\000" 
+    EXPLOSIVELATENTTYPEBOX, 0x403, 11, 0
+0x4f43, 0x434e, 0x5355, 0x4953, 0x4e4f, "\000" 
+    EXPLOSIVELATENTTYPEBOX, 0x403, 6, 0
+0x4c46, 0x5341, 0x0048, 
+    EXPLOSIVELATENTTYPEBOX, 0x403, 9, 0
+0x5550, 0x434e, 0x5554, 0x4552, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+EDITORICON              ICON    DISCARDABLE     "icon1.ico"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

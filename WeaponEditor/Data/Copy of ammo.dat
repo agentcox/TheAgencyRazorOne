@@ -1,0 +1,91 @@
+<BEGINAMMOFILE>
+<BEGINMAINAMMO>
+1
+0
+.50 AE
+2
+<BEGINSUBAMMO>
+1
+1
+Spyder round
+.50 AE Spyder Frangible Rounds
+The Spyder is a specially-crafted high-frangibility ammunition designed to open upon impact with targets. The rhombical pattern achieved upon opening behaves much like an arrowhead, preventing extraction and causing large open wounds. As a consequence, the energy transmission and AP Level of this ammunition is low.
+70
+25
+21
+84
+23
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+2
+0
+.50 AP
+.50 ArmorTac AP Rounds
+ArmorTac rounds are a well-known and often-used AP bullet, readily available on the black market. With a high burn-through rate, these rounds are lethal man-stoppers.
+100
+69
+20
+54
+0
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+2
+0
+9mm Parabellum
+1
+<BEGINSUBAMMO>
+1
+0
+FMJ round
+Full Metal Jacket Rounds
+Good SHEAIT
+100
+30
+30
+67
+0
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+3
+1
+Shotgun Shells
+1
+<BEGINSUBAMMO>
+1
+0
+buckshot shell
+Buckshot Shells
+
+100
+70
+20
+20
+60
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+4
+0
+.337 High Velocity
+1
+<BEGINSUBAMMO>
+1
+0
+FMJ round
+Full Metal Jacket Rounds
+
+100
+35
+30
+60
+0
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<ENDAMMOFILE>

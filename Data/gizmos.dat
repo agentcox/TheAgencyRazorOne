@@ -1,0 +1,200 @@
+0
+1
+DSA Listening Bug
+Bug
+Bugs are covert listening devices that are used to gain auditory data about an area. You can place them anywhere you wish during your operation. Each pack contains TEN bugs.
+1
+0.0
+100
+0
+2
+DSA SpikeMike Unit
+SpikeMike
+The DSA SpikeMike kit consists of a pistol-like launcher and five customized listening bugs. When activated, you may fire the bugs from the launcher. The bugs will drill into any flat surface and begin transmitting auditory data. Fluid shorts them out, so shooting them at humans is discouraged.
+1
+2.3
+70
+0
+3
+Night Vision Goggles (NVG)
+NVG
+DSA's Generation IV Night Vision Goggles are termed the "Optical Amplification System" and work by amplifying otherwise negligible light sources (moonlight, etc.) and feeding them digitally through a digital reciever into a small display that sits in front of the wearer's eyes. While this system is a tremendous advantage to vision during operations, it should be noted that ANY fire with weapons that are not flash suppressed WILL CAUSE A SHORT-OUT AND TEMPORARY BLINDNESS on the part of the wearer.
+0
+1.5
+80
+0
+4
+Thermal Amplification System (TAS)
+TAS
+Raytheon Inc. developed this monocular viewing device for surveillance and emergency purposes. The monocular camera picks up the infrared wavelength instead of visible light, and transmits a digital picture to the viewfinder so that the viewer can get a thermal "picture" of their surroundings. Only heat-emitting objects are shown on the display, but they can be spotted at great distances. Note that due to the lack of any sort of support or binocular vision system, movement is not possible while the TAS is active.
+0
+3.5
+70
+0
+5
+X-Rifle Interface (XRI)
+XRI
+The X-Rifle Interface is used to connect any sniper rifle system to either the TAS or NVG system in order to allow the user to snipe at the targets they see in either amplification system. The amplification system must be on, and the interface must be on, and the rifle will work with them both to allow the user to fire at targets in the dark.
+0
+2.5
+60
+0
+6
+Fiber-Optic Vision System (FOVS)
+FOVS
+The FOVS is an all-in-one kit that allows the user to drill through walls or doors and use a small camera to see inside the room on the other side. A 6mm drill allows quiet operation. Five drill bits are provided.
+1
+2.1
+60
+0
+7
+Lock Intrusion System (LIS)
+LIS
+Level III and Level V agents are both very familiar with the Lock Intrusion System, or LIS; the pen-sized unit is their main way of getting into locked doors. If you intend to make your way into places where you would not normally be welcome, be sure to take along one of these.
+0
+0.3
+80
+0
+8
+Cryptographic Intrusion System
+CIS
+Some locks are electronic, and very resistant to LIS incursion. In this case, the Cryptographic Intrusion System, or CIS, is very useful. Quite a bit larger, about the size of a paperback book, the CIS is attached to the lock while the lock is being reprogrammed, and is removed afterward.
+0
+1.5
+70
+0
+9
+Sensor Bypass Kit (SBK)
+SBK
+The SBK, or Sensor Bypass Kit, is used to bypass alarm sensors by transmitting a false "OK" signal. This is used if the alarm has a failsafe module, as nearly all of them do. The SBK is not re-useable; it is left where it is activated. They come in packs of three.
+1
+1.2
+70
+0
+10
+Yellow-Spectrum Contact Lenses
+cYx-Lenses
+While at first glance they may appear to be completely ornamental, these contact lenses will in fact hone your shooting and perception abilities to an above-average level, due to the blockage of blue-tones from the surrounding environment. Highly useful, they are always in a constant state of development to make them more effective, and as such, are not usually available.
+0
+0.0
+50
+0
+11
+VN Blade Ring
+Blade Ring
+This is a zirconium ring worn as a standard ornamental piece on the ring finger of the dominant hand. Contained within the ring is an incredibly sharp blade which extends by way of a barometric trigger, activated when excessive motion is sensed. The end result is a highly devastating punching weapon during hand-to-hand combat.
+0
+0.0
+60
+0
+12
+Strangling Wire Watch
+Wire Watch
+A very handy replacement for the standard DSA chronograph, the Strangling Wire Watch is a direct descendant of the old CIA model created early in their history. The new version packs a 30-foot high-tensile cord in a retractable form, so that all that's necessary is to get the wire around the neck, and press the retractor to instantly tighten the cord. It is highly useful for stealth hand-to-hand attacks.
+0
+0.3
+60
+0
+13
+Leg Stimulant Packs (LSP)
+Leg Packs
+An acquired taste for many operatives, the LSPs' are useful for operatives who wish to boost their perceptive and reflex abilities at the expense of calmness. The LSPs' wrap around the legs and their contents are introduced into the operative's bloodstream via intravenous needles secured in place at the back of the legs.
+0
+0.5
+75
+0
+14
+Optical Binoculars
+Binoculars
+Binoculars allow you to see long distances without the aid of a clumsy rifle and attached scope. They're light, easy to conceal and carry. They use passive light-gathering technology to increase your perception while zoomed.
+0
+1.5
+85
+0
+15
+C4 Explosive/Timer Detonator
+C4 Timed
+Composition Four is one of the world's most highly concentrated chemical explosives. The major advantage of C4 is that it's highly stable and can accept a variety of predictable detonation methods without being overly sensitive to external "accidental" detonation forces. This pack comes with a timer detonation system.
+1
+1.5
+70
+0
+16
+C4 Explosive/Remote Detonator
+C4 Remote
+Composition Four is one of the world's most highly concentrated chemical explosives. The major advantage of C4 is that it's highly stable and can accept a variety of predictable detonation methods without being overly sensitive to external "accidental" detonation forces. This pack comes with a remote detonation system.
+1
+1.5
+70
+0
+17
+C4 Explosive/Proximity Detonator
+C4 Proximity
+Composition Four is one of the world's most highly concentrated chemical explosives. The major advantage of C4 is that it's highly stable and can accept a variety of predictable detonation methods without being overly sensitive to external "accidental" detonation forces. This pack comes with a heat-sensing proximity detonation system.
+1
+1.5
+70
+0
+18
+C4 Explosive/Electronic Detonator
+C4 Electronic
+Composition Four is one of the world's most highly concentrated chemical explosives. The major advantage of C4 is that it's highly stable and can accept a variety of predictable detonation methods without being overly sensitive to external "accidental" detonation forces. This pack comes with an electronic detonation system, which can be wired to a vehicle's ignition system.
+1
+1.5
+70
+0
+19
+Octyl Dichloride With Injector
+D8-CL Injector
+A useful way to knock out vehicles, D8-CL is injected directly into the gas tank of the car through the fueling port. Once inside the tank, the D8-CL mixes with the fuel and effectively tears the fuel molecules to pieces, giving the fuel approximately the caloric burn ratio of fresh celery. The vehicle is rendered immobile. A full injector holds three doses of D8-CL.
+1
+0.6
+80
+0
+20
+Gas Mask Unit
+Gas Mask
+In the case that an operative will be entering areas where toxic gas will be utilized, a gas mask unit provides the only basis for survival. Using the gas mask unit will keep the operative safe from environmental toxins, but will drastically reduce his visibility. The gas masks use impact-resistant, tinted lenses that will reduce some flash damage, and may also protect the player from a head impact.
+0
+1.8
+90
+0
+21
+Trauma Plates
+T-Plates
+DSA Trauma Plates are two precision-layered carbon-steel alloy plates that are covered with a protective film of plastic. Together, the two plates weigh 8.25 lbs. The plates are inserted into the front and back of your standard bulletproof vest, and provide additional protection from enemy fire.
+0
+8.25
+80
+1
+1
+Fragmentation Grenade
+Frag Grenade
+Frag grenades, as they are called, are standard fare in Level V operations. Molded out of a heavy steel frame, the "frags" are filled with small, pointed shards, arranged concentrically around a large central explosive charge. Upon pulling the pin, the grenades are primed, and a fuse delays the explosion for a variable amount of time. Upon detonation, the shards are propelled out of the casing, and have an effective range of over fifty feet.
+1
+2.0
+80
+1
+2
+Flashbang Grenade
+Flash Grenade
+Flash grenades use a combination of phosphorous and magnesium to produce an intensely bright flash with little warning upon detonation. Detonation is marked by an incredibly high-powered flash of light, effectively blinding those in the immediate vicinity. Effective range is varied, but is estimated at twenty-five feet.
+1
+1.2
+75
+1
+3
+Smoke Dispersal Grenade
+Smoke Grenade
+A distractive and masking device, the smoke grenade uses diluted slow-burning powder to produce a thick, chalky smoke that can be used to mask entrances, exits, and kills.
+1
+1.5
+80
+1
+4
+Toxin Dispersal Grenade
+Toxin Grenade
+The Toxin Grenade is filled with BZ nerve agent, a highly concentrated neural destabilizer that causes hallucinations, spasms, unconsciousness, and potentially death from long-term exposure. The grenade has a variable-timer fuse. After igniting, it sprays the toxin in a vaporous form over an area of fifty feet.
+1
+1.7
+60

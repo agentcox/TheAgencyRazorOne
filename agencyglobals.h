@@ -1,0 +1,1 @@
+consolestruct cs;

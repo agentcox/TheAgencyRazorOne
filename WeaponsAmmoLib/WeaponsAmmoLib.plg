@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LinkedList - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP4205.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/LinkedList.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\The Agency\TextBased\Listpriv.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP4205.TMP" 
+Creating command line "link.exe -lib /nologo /out:"Debug\LinkedList.lib"  ".\Debug\Listpriv.obj" "
+<h3>Output Window</h3>
+Compiling...
+Listpriv.cpp
+Creating library...
+<h3>
+--------------------Configuration: WeaponsAmmoLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP4260.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/WeaponsAmmoLib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\The Agency\TextBased\weaponsammo.cpp"
+"C:\The Agency\TextBased\sorting.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP4260.TMP" 
+Creating command line "link.exe -lib /nologo /out:"Debug\WeaponsAmmoLib.lib"  ".\Debug\weaponsammo.obj" ".\Debug\sorting.obj" "..\LinkedList\Debug\LinkedList.lib" "
+<h3>Output Window</h3>
+Compiling...
+sorting.cpp
+weaponsammo.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+WeaponsAmmoLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<BEGINAMMOFILE>
+<BEGINMAINAMMO>
+1
+1
+Shotgun Shells
+1
+<BEGINSUBAMMO>
+1
+0
+Buckshot shell
+Buckshot Shells
+
+100
+70
+20
+20
+60
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+2
+0
+.337 High Velocity
+2
+<BEGINSUBAMMO>
+1
+0
+FMJ round
+Full Metal Jacket Rounds
+Standard FMJ - .337 BALL NATO SPEC.
+100
+35
+30
+60
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+2
+1
+K-Round
+Kierson N-Limit Rounds
+This unique ammo was developed by Chance Kierson, a ballistics engineer working out of Langley's CIA S&T team. The K-Rounds, as they are called, have a unique capability to punch targets with high energy blasts, and inflict latent damage beneath the surface. In this way, the K-Rounds can be used as a knockdown-latent round for special situations.
+60
+35
+70
+30
+35
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+3
+0
+.308 NATO
+1
+<BEGINSUBAMMO>
+1
+0
+FMJ round
+Full Metal Jacket Rounds
+Standard .308 FMJ - .308 x 51mm NATO BALL SPEC.
+100
+50
+20
+50
+0
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+4
+0
+5.56 Advanced
+1
+<BEGINSUBAMMO>
+1
+0
+5.56 FMJ round
+5.56 Full Metal Jacket Round
+Standard 5.56 x 45mm Full Metal Jacket - NATO SPEC.
+100
+30
+20
+60
+0
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<ENDAMMOFILE>

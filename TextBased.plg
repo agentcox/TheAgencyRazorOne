@@ -1,0 +1,144 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: UiLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\PHOENI~1\LOCALS~1\Temp\RSP13.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/UiLib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\sound.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\PHOENI~1\LOCALS~1\Temp\RSP13.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\UiLib.lib"  ".\Debug\sound.obj" ".\Debug\ui.obj" "
+<h3>Output Window</h3>
+Compiling...
+sound.cpp
+Creating library...
+<h3>
+--------------------Configuration: MapLibrary - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\PHOENI~1\LOCALS~1\Temp\RSP14.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/MapLibrary.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\maplib.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\prefabs.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\PHOENI~1\LOCALS~1\Temp\RSP14.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\MapLibrary.lib"  ".\Debug\maplib.obj" ".\Debug\prefabs.obj" "
+<h3>Output Window</h3>
+Compiling...
+maplib.cpp
+prefabs.cpp
+Creating library...
+<h3>
+--------------------Configuration: TextBased - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\PHOENI~1\LOCALS~1\Temp\RSP15.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/TextBased.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\bulletcalculate.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\cutscenes.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\dboxes.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\enemy.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\gizmos.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\graphics.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\guns.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\handtohand.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\inventory.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\main.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\math.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\mission.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\music.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\officeofrecords.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\opcon.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\playerselections.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\postmission.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\premission.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\radio.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\sartu.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\shooting.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\sniping.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\sounds.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\training.cpp"
+"D:\WorldWork\The Art Of The State\GameIdeas\TextBased\vehicle.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\PHOENI~1\LOCALS~1\Temp\RSP15.tmp" 
+Creating temporary file "D:\DOCUME~1\PHOENI~1\LOCALS~1\Temp\RSP16.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib fmodvc.lib /nologo /subsystem:console /profile /debug /machine:I386 /nodefaultlib:"LIBCD" /out:"Debug/RazorOne.exe" 
+".\Debug\bulletcalculate.obj"
+".\Debug\cutscenes.obj"
+".\Debug\dboxes.obj"
+".\Debug\enemy.obj"
+".\Debug\gizmos.obj"
+".\Debug\graphics.obj"
+".\Debug\guns.obj"
+".\Debug\handtohand.obj"
+".\Debug\inventory.obj"
+".\Debug\main.obj"
+".\Debug\math.obj"
+".\Debug\mission.obj"
+".\Debug\music.obj"
+".\Debug\officeofrecords.obj"
+".\Debug\opcon.obj"
+".\Debug\playerselections.obj"
+".\Debug\postmission.obj"
+".\Debug\premission.obj"
+".\Debug\radio.obj"
+".\Debug\sartu.obj"
+".\Debug\shooting.obj"
+".\Debug\sniping.obj"
+".\Debug\sounds.obj"
+".\Debug\training.obj"
+".\Debug\vehicle.obj"
+".\Debug\DSAIcon.res"
+".\UiLib\Debug\UiLib.lib"
+".\WeaponsAmmoLib\Debug\WeaponsAmmoLib.lib"
+".\MapLibrary\Debug\MapLibrary.lib"
+".\XAudio\xaudio.lib"
+".\LinkedList\Debug\LinkedList.lib"
+]
+Creating command line "link.exe @D:\DOCUME~1\PHOENI~1\LOCALS~1\Temp\RSP16.tmp"
+<h3>Output Window</h3>
+Compiling...
+graphics.cpp
+main.cpp
+shooting.cpp
+bulletcalculate.cpp
+cutscenes.cpp
+dboxes.cpp
+enemy.cpp
+D:\WorldWork\The Art Of The State\GameIdeas\TextBased\enemy.cpp(213) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+gizmos.cpp
+guns.cpp
+handtohand.cpp
+inventory.cpp
+math.cpp
+mission.cpp
+D:\WorldWork\The Art Of The State\GameIdeas\TextBased\mission.cpp(3104) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+music.cpp
+officeofrecords.cpp
+opcon.cpp
+playerselections.cpp
+postmission.cpp
+premission.cpp
+radio.cpp
+sartu.cpp
+sniping.cpp
+sounds.cpp
+training.cpp
+vehicle.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+RazorOne.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

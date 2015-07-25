@@ -1,0 +1,152 @@
+<BEGINWEAPONFILE>
+<BEGINWEAPON>
+1
+1
+9
+F-05
+F-05 Reflex .50 Caliber Pistol
+#
+The F-05 Reflex is an incredible blend of speed and power. A .50 caliber, AE chambered pistol, the Reflex is DSA's standard heavy assault pistol. The .50 caliber slugs can tear through most armor easily, and the 7-round clip can store enough power to drop an assault team. Due to the high flash and concussion capacity, however, this gun can only accept a laser sight modification.
+#
+2
+2
+80
+1
+7
+1
+87
+1
+50
+50
+0
+0
+3.2
+1	0	0
+sounds\weapons\deagle-1.wav
+sounds\weapons\deagle-2.wav
+NULL
+NULL
+sounds\weapons\de_clipin.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+2
+1
+9
+M-33
+M-33 DSA Standard Pistol
+#
+The M-33 is DSA's standard sidearm. Level V Operatives are not required to take this pistol on their missions, but the high accuracy and modification ability of this pistol make it highly recommended. Weighing in at 2.7 pounds, the M-33 has an extended 13-round clip and the ability to accept all forms of modification.
+#
+2
+1
+100
+2
+13
+1
+92
+1
+35
+40
+0
+0
+2.7
+1	1	1
+sounds\weapons\9mmp.wav
+sounds\weapons\9mmpsd.wav
+NULL
+NULL
+sounds\weapons\de_clipin.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+3
+1
+9
+KN-55
+KN-55 Silenced Assault Rifle
+#
+Level IV's newest assault innovation blends stealth and powerful accuracy into an automatic rifle package. Fitted with a flash suppressor/silencer from the outset, this excellent rifle is capable of throwing out 30 rounds from it's high-capacity clip before reloading. The rifle can be fitted with a laser sight, along with the standard F/S combination.
+#
+4
+4
+55
+4
+30
+1
+88
+3
+20
+25
+0
+0
+5.5
+1	0	0
+sounds\weapons\flechette-3.wav
+NULL
+NULL
+NULL
+sounds\weapons\aug_boltslap.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+4
+1
+9
+S-55
+S-55 Assault Shotgun
+#
+The DSA S-55 Assault Shotgun is the standard shotgun for Level V infiltrating forces. Compact and easily maneuverable, the shotgun can hold 8 rounds in it's magazine. The S-55 is highly concussive, however, and as such, cannot hold any modifications.
+#
+5
+3
+85
+3
+8
+2
+75
+1
+50
+60
+0
+0
+6.8
+0	0	0
+sounds\weapons\shotgun.wav
+NULL
+NULL
+NULL
+sounds\weapons\shotrld.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+5
+1
+41
+KL-05
+KL-05 Gyroscopic Sniper Rifle
+#
+A sniper's dream; the KL-05 was developed jointly by DSA and Reliable Systems in Virginia. The key factor in the KL-05's excellent sniping ability is the gyroscopic unit that helps to stabilize the rifle for long-range shooting. The KL-05 utilizes a magazine system that can hold up to five rounds at a time.
+#
+4
+4
+60
+4
+5
+2
+75
+1
+30
+50
+0
+0
+8.1
+0	0	0
+sounds\weapons\sniper.wav
+NULL
+NULL
+NULL
+sounds\weapons\sniperrld.wav
+NULL
+<ENDWEAPON>
+<ENDWEAPONFILE>

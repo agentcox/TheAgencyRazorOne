@@ -1,0 +1,645 @@
+<BEGINAMMOFILE>
+<BEGINMAINAMMO>
+1
+0
+9mm Parabellum
+7
+<BEGINSUBAMMO>
+1
+0
+FMJ round
+Full Metal Jacket Rounds
+Standard 9mm Parabellum Full Metal Jacket rounds; fully Geneva Convention compatible and licensed for military and law enforcement purchase, these rounds are available worldwide.
+100
+40
+20
+50
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+2
+0
+JHP round
+Jacketed Hollow Point Rounds
+The most common type of operational 9mm round, JHP rounds feature high expansion potential coupled with moderate energy transmission to target. With less penetration power than FMJ, these rounds are suggested for unshielded human targets.
+100
+20
+40
+60
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+3
+0
+Hydra-Shok round
+Hydra-Shok HRT Rounds
+Special Hostage Rescue Team rounds, Hydra-Shok rounds utilize a modified expansion core to limit penetration to the level of nearly zero exit wound potential. Highly useful in situations where pass-through may injure bystanders or hostages.
+80
+20
+60
+60
+20
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+4
+0
+Greentip round
+NATO Green Tip Rounds
+Advanced penetration and trauma rounds made specifically for military and special forces use, Green Tips are primed with a higher charge and more powder, along with a sharper and more aerodynamic bullet for increased penetration through armor and environmental obstructions.
+60
+60
+20
+65
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+5
+1
+ShockTox
+ShockToxin Rounds
+A DSA innovation, ShockToxin rounds use a binary capsule system in the nose of the bullet that holds a toxic mixture of Trilithium Sulfate and Hydroflouric Acid. When the bullet expands upon contact, the binary system breaks open; the chemicals are mixed, and the resulting reaction forces a small chemical explosion, spraying acidic remnants inside the wound channel.
+40
+20
+30
+60
+30
+sounds\hits\bulletburn.wav
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+6
+1
+E-round
+Energy Dispersal Rounds
+Dangerous but non-lethal rounds, the DSA-created Energy Dispersal Rounds use an electronic capacitor that fires upon expansion to deliver a shock large enough to down a 320-pound human, but without serious effects. Enough hits of this type of round may deliver fatal results; use with caution.
+60
+80
+70
+35
+0
+sounds\hits\eround.wav
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+7
+1
+Ring round
+Ring Expansion Rounds
+Taking their ideas from modern air-to-air missiles, the DSA team responsible for Ring Rounds created a lethal package. The ring rounds enter a target, and upon expansion, tensile rings pop open within the wound cavity at predetermined intervals, further spreading the wound channel and bracing it open. This type of round does have a drawback, in that the ring rounds can expand within armor to no effect, should the target have armor.
+40
+10
+70
+80
+20
+sounds\hits\fleshmetal.wav
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+2
+0
+.40 S&W
+7
+<BEGINSUBAMMO>
+1
+0
+FMJ round
+Full Metal Jacket Rounds
+Standard .40 S&W Full Metal Jacket rounds; fully Geneva Convention compatible and licensed for military and law enforcement purchase, these rounds are available worldwide.
+100
+40
+20
+50
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+2
+0
+JHP round
+Jacketed Hollow Point Rounds
+The most common type of operational .40 S&W round, JHP rounds feature high expansion potential coupled with moderate energy transmission to target. With less penetration power than FMJ, these rounds are suggested for unshielded human targets.
+100
+20
+40
+60
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+3
+0
+Hydra-Shok round
+Hydra-Shok HRT Rounds
+Special Hostage Rescue Team rounds, Hydra-Shok rounds utilize a modified expansion core to limit penetration to the level of nearly zero exit wound potential. Highly useful in situations where pass-through may injure bystanders or hostages.
+80
+20
+60
+60
+20
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+4
+0
+Greentip round
+NATO Green Tip Rounds
+Advanced penetration and trauma rounds made specifically for military and special forces use, Green Tips are primed with a higher charge and more powder, along with a sharper and more aerodynamic bullet for increased penetration through armor and environmental obstructions.
+60
+60
+20
+65
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+5
+1
+ShockTox
+ShockToxin Rounds
+A DSA innovation, ShockToxin rounds use a binary capsule system in the nose of the bullet that holds a toxic mixture of Trilithium Sulfate and Hydroflouric Acid. When the bullet expands upon contact, the binary system breaks open; the chemicals are mixed, and the resulting reaction forces a small chemical explosion, spraying acidic remnants inside the wound channel.
+40
+20
+30
+60
+30
+sounds\hits\bulletburn.wav
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+6
+1
+E-round
+Energy Dispersal Rounds
+Dangerous but non-lethal rounds, the DSA-created Energy Dispersal Rounds use an electronic capacitor that fires upon expansion to deliver a shock large enough to down a 320-pound human, but without serious effects. Enough hits of this type of round may deliver fatal results; use with caution.
+60
+80
+70
+35
+0
+sounds\hits\eround.wav
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+7
+1
+Ring round
+Ring Expansion Rounds
+Taking their ideas from modern air-to-air missiles, the DSA team responsible for Ring Rounds created a lethal package. The ring rounds enter a target, and upon expansion, tensile rings pop open within the wound cavity at predetermined intervals, further spreading the wound channel and bracing it open. This type of round does have a drawback, in that the ring rounds can expand within armor to no effect, should the target have armor.
+40
+10
+70
+80
+20
+sounds\hits\fleshmetal.wav
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+3
+0
+.45 ACP
+7
+<BEGINSUBAMMO>
+1
+0
+FMJ round
+Full Metal Jacket Rounds
+Standard .45 ACP Full Metal Jacket rounds; fully Geneva Convention compatible and licensed for military and law enforcement purchase, these rounds are available worldwide.
+100
+40
+20
+50
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+2
+0
+JHP round
+Jacketed Hollow Point Rounds
+The most common type of operational .45 round, JHP rounds feature high expansion potential coupled with moderate energy transmission to target. With less penetration power than FMJ, these rounds are suggested for unshielded human targets.
+100
+20
+40
+60
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+3
+0
+Hydra-Shok round
+Hydra-Shok HRT Rounds
+Special Hostage Rescue Team rounds, Hydra-Shok rounds utilize a modified expansion core to limit penetration to the level of nearly zero exit wound potential. Highly useful in situations where pass-through may injure bystanders or hostages.
+80
+20
+60
+60
+20
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+4
+0
+Greentip round
+NATO Green Tip Rounds
+Advanced penetration and trauma rounds made specifically for military and special forces use, Green Tips are primed with a higher charge and more powder, along with a sharper and more aerodynamic bullet for increased penetration through armor and environmental obstructions.
+60
+60
+20
+65
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+5
+1
+ShockTox
+ShockToxin Rounds
+A DSA innovation, ShockToxin rounds use a binary capsule system in the nose of the bullet that holds a toxic mixture of Trilithium Sulfate and Hydroflouric Acid. When the bullet expands upon contact, the binary system breaks open; the chemicals are mixed, and the resulting reaction forces a small chemical explosion, spraying acidic remnants inside the wound channel.
+40
+20
+30
+60
+30
+sounds\hits\bulletburn.wav
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+6
+1
+E-round
+Energy Dispersal Rounds
+Dangerous but non-lethal rounds, the DSA-created Energy Dispersal Rounds use an electronic capacitor that fires upon expansion to deliver a shock large enough to down a 320-pound human, but without serious effects. Enough hits of this type of round may deliver fatal results; use with caution.
+60
+80
+70
+35
+0
+sounds\hits\eround.wav
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+7
+1
+Ring round
+Ring Expansion Rounds
+Taking their ideas from modern air-to-air missiles, the DSA team responsible for Ring Rounds created a lethal package. The ring rounds enter a target, and upon expansion, tensile rings pop open within the wound cavity at predetermined intervals, further spreading the wound channel and bracing it open. This type of round does have a drawback, in that the ring rounds can expand within armor to no effect, should the target have armor.
+40
+10
+70
+80
+20
+sounds\hits\fleshmetal.wav
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+4
+0
+.50 AE
+6
+<BEGINSUBAMMO>
+1
+0
+.50 Jacket round
+Jacketed Rounds
+These are standard .50 Action Express rounds, distributed nationally under the Magnum Research license. Standard expansion channel, designed for war, these rounds are military grade.
+100
+45
+25
+55
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+2
+0
+.50 HP
+Hollow Point Rounds
+Holding a legal-standard expansion core, .50 AE HP's feature greater energy and trauma transmission than their military grade jacketed counterparts, though are less prevalent in the arms marketplace. While damage from these rounds is excessive, penetration is less than desireable.
+70
+25
+45
+75
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+3
+1
+Spyder round
+Spyder Frangible Rounds
+DSA-Contracted Spyder rounds (Western Wire Corporation) contain a rhombical wire core that springs open upon expansion, generating an excessive wound channel and making extraction of the bullet nearly impossible. Care should be taken in the use of these rounds for human targets.
+35
+15
+75
+85
+30
+sounds\hits\fleshmetal.wav
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+4
+0
+ArmorTac round
+ArmorTac Adv. AP Rounds
+Also known colloquially as "Street Sweeper" rounds, these advanced armor piercing rounds are derivatives of military green-tips, studied, copied, and cheaply manufactured for illegitimate use. Able to cut effectively through a 1.12" CRISAT plate, these rounds are lethal against body armor.
+85
+65
+25
+45
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+5
+1
+Z-Flechette round
+Zytel Smart Flechette Rounds
+A DSA invention under exclusive contract with Zytel Polymer, who manufactures these incredible rounds, the Smart Flechette Rounds use a unique polymer system to deliver frangible flechettes that twist upon expansion, to form trauma cavities 35% wider than most normal bullets. These rounds are especially rare, only a few hundred are manufactured each month.
+35
+75
+30
+80
+30
+sounds\hits\shellhit.wav
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+6
+0
++P round
+Plus-P Ultra-Loaded Rounds
+These rounds are standard Jacketed rounds overloaded with gunpowder, so that the muzzle velocity out of the weapon is drastically increased. This surge provides superior armor-piercing and energy transmission potential.
+80
+75
+75
+60
+0
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+5
+0
+.337 High Velocity
+1
+<BEGINSUBAMMO>
+1
+0
+.337 FMJ
+Full Metal Jacket Rounds
+Standard .337 FMJ.
+100
+45
+20
+50
+0
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+6
+0
+5.56 Advanced
+1
+<BEGINSUBAMMO>
+1
+0
+5.56 FMJ
+Full Metal Jacket Rounds
+Standard 5.56 NATO Spec Full Metal Jacket.
+100
+40
+20
+55
+0
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+7
+0
+7.65mm Special
+1
+<BEGINSUBAMMO>
+1
+0
+7.65 FMJ
+Full Metal Jacket Rounds
+Standard 7.65 mil. CRISAT-N Full Metal Jacket Rounds.
+100
+40
+20
+50
+0
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+8
+0
+7.62mm Rifle
+1
+<BEGINSUBAMMO>
+1
+0
+7.62 FMJ
+Full Metal Jacket Rounds
+Standard .308 x 42 NATO Spec Full Metal Jacket Rounds.
+100
+45
+25
+50
+0
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+9
+0
+9mm x 90 Advanced
+1
+<BEGINSUBAMMO>
+1
+0
+Soft Core round
+Advanced Soft Core Rounds
+Standard 9mm x 90 MEN Soft Core Penetrator Round. Baseline Jacketed, Lead Weighted, Copper Shielding; Standard Military Grade.
+100
+40
+30
+50
+0
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+10
+0
+.50 BMG
+1
+<BEGINSUBAMMO>
+1
+0
+.50 FMJ
+Full Metal Jacket Rounds
+Standard BMG .50 Caliber NATO-Geneva Full Metal Jacket Round.
+100
+40
+20
+55
+0
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+11
+0
+3.3" Darts
+4
+<BEGINSUBAMMO>
+1
+0
+Steel dart
+Steel Razor Darts
+Laser-lathed, honed, and chemically treated against oxidation and warpage, these darts are meant to survive even the toughest ordeals, and make it to their target on time.
+100
+45
+20
+50
+0
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+2
+0
+Titanium dart
+Titanium Barbed Darts
+Crafted to be absolutely lethal, these titanium-coated darts are fitted with non-retractable barbs that inflict trauma damage if the victim should attempt to dislodge the dart.
+80
+45
+20
+65
+20
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+3
+1
+Expander dart
+Expansion Alloy Darts
+Using a rhombical expansion chamber, these darts will snap to an open diameter of 2" upon impact with over 50 lbs. of force, enough to open a wound channel in even the most hardened targets
+70
+25
+40
+85
+30
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+4
+1
+Cyanide dart
+Cyanide-Tipped Darts
+Custom-made for the Defense Security Agency, these small darts hold a small frontal chamber loaded with Potassium Cyanide which, when injected, causes convulsions, choking, and ultimately death by asphyxiation.
+40
+50
+20
+25
+85
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+12
+0
+Refractive Chemicals
+1
+<BEGINSUBAMMO>
+1
+1
+H2F Laser
+Dihydrogen Flouride
+Standard H2F
+100
+60
+20
+65
+20
+sounds\hits\burnflesh.wav
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+13
+1
+12-Gauge
+4
+<BEGINSUBAMMO>
+1
+0
+Buckshot
+Buckshot Shells
+Standard 12-Gauge .00 Buckshot. 8 Pellets to a Shell, average spread, and damage potential, with subdued armor-piercing and energy levels. The choice of law enforcement professionals worldwide.
+100
+50
+30
+20
+50
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+2
+1
+X-Pellet shell
+Tac .00 X-Pellet Shells
+DSA-contracted through Western Wire, these oblong-shaped pellets have points at either end and are packed tightly, 10 to a shell. The tight packing and odd aerodynamics of this shape ensure a larger spread, more damage potential and more armor piercing potential than standard buckshot, at the cost of energy transmission.
+80
+70
+50
+10
+70
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+3
+1
+KGK Slug
+KGK Solid Slug Shells
+A DSA contract through NAN Sheetmetal supplies these high-energy slugs suitable for breaching doors, punching holes through vehicle engine blocks, and incapacitating targets. Spread is nonexistant, as the slug is a solid tungsten core. Damage is low, though energy transmission and armor piercing capability is notably high.
+80
+0
+80
+60
+20
+NULL
+<ENDSUBAMMO>
+<BEGINSUBAMMO>
+4
+1
+Incendiary Slug
+H-3 Incendiary Slug Shells
+These incendiary shells are from DSA's labs, and contain a binary mixture that ignites upon detonation of the shell's primer. The flammable liquid breaks from its capsule upon expansion, spraying forward at temperatures in excess of 2100 degress Farenheit.
+60
+10
+15
+40
+80
+sounds\hits\bulletburn.wav
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<BEGINMAINAMMO>
+14
+1
+18.5mm NC
+1
+<BEGINSUBAMMO>
+1
+0
+Buckshot
+Military-Grade Buckshot Shell
+18.5mm Military-Grade Non-Conventional Buckshot Shell.
+100
+25
+50
+40
+60
+NULL
+<ENDSUBAMMO>
+<ENDMAINAMMO>
+<ENDAMMOFILE>

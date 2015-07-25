@@ -1,0 +1,482 @@
+<BEGINWEAPONFILE>
+<BEGINWEAPON>
+1
+1
+14
+trebeK
+Suk on it trebeK
+#
+
+#
+0
+0
+2
+0
+19
+3
+100
+0
+2
+2
+0
+0
+4.4
+0	0	0
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+2
+0
+8
+ASV Baton
+ASV Expandable Baton
+#
+A quick-deploying and very intimidating weapon, the ASV baton is best known for the distinctive metallic clicking it makes when it snaps open. Used in either a lunging or slashing motion, the baton is capable of breaking bones, knocking victims unconscious, and causing major organ trauma. Use with caution.
+#
+1
+1
+100
+0
+3
+0
+100
+3
+1
+1
+0
+0
+1.0
+0	0	0
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+3
+0
+6
+Falcon Knife
+Ka-Bar "Falcon" Combat Knife
+#
+Weighing in at just under one pound, the Falcon Knife is a compact Ka-Bar used for last-ditch close-quarters combat.
+#
+1
+1
+100
+0
+3
+0
+100
+3
+5
+5
+0
+0
+0.6
+0	0	0
+NULL
+NULL
+NULL
+sounds\weapons\knifedrop.wav
+NULL
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+4
+1
+6
+V1 Throwing Knife
+V1 "Pentagon" Throwing Knife
+#
+A tiny addition to the DSA arsenal, the V1 "Pentagon" is a balanced steel throwing knife made by the Reliable corporation, a DSA contractor. Weighing only .3 lbs, it is advisable that operatives carry a few in case of an emergency.
+#
+1
+1
+80
+0
+0
+0
+85
+0
+1
+1
+0
+0
+0.3
+0	0	0
+NULL
+NULL
+NULL
+sounds\weapons\knifedrop.wav
+NULL
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+5
+1
+11
+M-33
+M-33 DSA Standard Pistol
+#
+The M-33 is DSA's standard sidearm. Level V Operatives are not required to take this pistol on their missions, but the high accuracy and modification ability of this pistol make it highly recommended. Weighing in at 2.7 pounds, the M-33 has an extended 13-round clip and the ability to accept all forms of modification.
+#
+2
+1
+100
+2
+13
+1
+85
+1
+35
+40
+0
+0
+2.7
+1	1	1
+sounds\weapons\9mmp.wav
+sounds\weapons\9mmpsd.wav
+NULL
+NULL
+sounds\weapons\de_clipin.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+6
+0
+11
+P228
+P228 Compact Operations Pistol
+#
+The P228 is a standard benchmark for pistol reliability and accuracy throughout the world. The compact design allows for quick movement while maintaining split-second precision and pinpoint accuracy. This particular gun is suited to high-risk special operations, holding a 10-round clip, and ability to accept a laser sight modification. The flash and sound levels are not designed for covert operation, however.
+#
+2
+1
+100
+2
+10
+1
+79
+1
+50
+55
+0
+0
+3.5
+1	0	0
+sounds\weapons\pistol2.wav
+NULL
+NULL
+NULL
+sounds\weapons\pistolreload1.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+7
+0
+11
+S&W 626
+Smith & Wesson 626
+#
+A stainless-steel revolver manufactured by Smith & Wesson, the "N" frame 626 fires the massive .50 AE cartridge. It's use of half-moon and full-moon speedloaders makes it extremely handy for emergency use.
+#
+2
+1
+100
+1
+6
+3
+75
+1
+60
+60
+0
+0
+1.5
+1	0	0
+sounds\weapons\pistol5.wav
+NULL
+NULL
+NULL
+NULL
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+8
+1
+11
+F-05
+F-05 Reflex .50 Caliber Pistol
+#
+The F-05 Reflex is an incredible blend of speed and power. A .50 caliber, AE chambered pistol, the Reflex is DSA's standard heavy assault pistol. The .50 caliber slugs can tear through most armor easily, and the 7-round clip can store enough power to drop an assault team. Due to the high flash and concussion capacity, however, this gun can only accept a laser sight modification.
+#
+2
+2
+80
+1
+7
+1
+80
+1
+50
+50
+0
+0
+3.2
+1	0	0
+sounds\weapons\deagle-1.wav
+sounds\weapons\deagle-2.wav
+NULL
+sounds\common\locker.wav
+sounds\weapons\de_clipin.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+9
+1
+11
+D7 Spec
+D7 Special Operations Pistol
+#
+The D7 is a DSA venture to create a specialized pistol for high-risk operations. Holding an extended 13-round clip reciever, and a high-power optical magnification scope on top, the D7 is probably one of the most advanced and unusual pistols to come out of the Level IV research labs. The scope insures high accuracy, and the unit is fairly covert even without the flash suppressor or silencer which can be attached. The D7 is also laser sight compatible.
+#
+2
+3
+40
+4
+13
+1
+90
+1
+30
+30
+0
+0
+5.0
+1	1	1
+sounds\weapons\9mmp.wav
+sounds\weapons\9mmpsd.wav
+NULL
+NULL
+sounds\weapons\de_clipin.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+10
+0
+9
+M16K
+La France M16K
+#
+The La France M16K is an M-16 variant utilizing many of the parts of the successful M-16 battle rifle. This variant is chambered in 9mm Parabellum. Designed for close-in warfare, the M16K utilizes a shortened design and sports a straight clip. It can accept all standard modifications.
+#
+4
+2
+80
+2
+30
+1
+80
+1
+30
+30
+0
+0
+8.8
+1	1	1
+sounds\weapons\pistol3.wav
+sounds\weapons\45calsd-s.wav
+NULL
+NULL
+sounds\weapons\smgreload1.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+11
+0
+41
+SR-25
+Stoner SR-25 Match Rifle
+#
+The Stoner SR-25 Match Rifle is designed for sniper, counter-sniper, and sniper support roles. The barrel will accept a flash suppressor or silencer, and the scope mount hefts a Zeiss 6x NSA Passive Night Vision scope, allowing the rifle to be used in all-weather conditions, day or night.
+#
+4
+2
+70
+0
+10
+1
+85
+1
+50
+50
+0
+0
+10.5
+0	1	1
+sounds\weapons\sniper2.wav
+sounds\weapons\flechette-s.wav
+NULL
+NULL
+sounds\weapons\reloadb.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+12
+1
+41
+SSG3000
+SIG-SSG3000
+#
+The SIG-SSG3000 is designed under a special corporate contract with DSA. Utilizing state-of-the-art polygonal rifling, barrel fluting, and floating technology, the SSG3000 is a quiet, stable, and accurate sniping platform. It can accept a flash suppressor or silencer. The SSG3000 comes standard with a Zeiss 6x scope.
+#
+4
+3
+60
+0
+20
+1
+90
+1
+30
+30
+0
+0
+10.5
+0	1	1
+sounds\weapons\sniper3.wav
+sounds\weapons\flechette-s.wav
+NULL
+NULL
+sounds\weapons\reloadb.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+13
+1
+41
+KL-05
+KL-05 Gyroscopic Sniper Rifle
+#
+A sniper's dream; the KL-05 was developed jointly by DSA and Reliable Systems in Virginia. The key factor in the KL-05's excellent sniping ability is the gyroscopic unit that helps to stabilize the rifle for long-range shooting. The KL-05 utilizes a magazine system that can hold up to five rounds at a time.
+#
+4
+4
+60
+4
+5
+2
+75
+1
+30
+50
+0
+0
+8.1
+0	0	0
+sounds\weapons\sniper.wav
+NULL
+NULL
+NULL
+sounds\weapons\sniperrld.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+14
+1
+9
+KN-55
+KN-55 Silenced Assault Rifle
+#
+Level IV's newest assault innovation blends stealth and powerful accuracy into an automatic rifle package. Fitted with a flash suppressor/silencer from the outset, this excellent rifle is capable of throwing out 30 rounds from it's high-capacity clip before reloading. The rifle can be fitted with a laser sight, along with the standard F/S combination.
+#
+4
+4
+55
+4
+30
+1
+88
+3
+20
+25
+0
+0
+7.5
+1	0	0
+sounds\weapons\flechette-3.wav
+NULL
+NULL
+NULL
+sounds\weapons\aug_boltslap.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+15
+1
+9
+S-55
+S-55 Assault Shotgun
+#
+The DSA S-55 Assault Shotgun is the standard shotgun for Level V infiltrating forces. Compact and easily maneuverable, the shotgun can hold 8 rounds in it's magazine. The S-55 is highly concussive, however, and as such, cannot hold any modifications.
+#
+5
+3
+85
+3
+8
+2
+75
+1
+50
+60
+0
+0
+6.8
+0	0	0
+sounds\weapons\shotgun.wav
+NULL
+NULL
+NULL
+sounds\weapons\shotrld.wav
+NULL
+<ENDWEAPON>
+<BEGINWEAPON>
+16
+0
+16
+Cyanide Syringe
+Cyanide Syringe
+#
+This is a standard-issue DSA cyanide syringe. Used for covert attacks on lone individuals, the syringe has dosage enough for two humans.
+#
+7
+2
+75
+0
+0
+0
+100
+0
+1
+1
+1
+0
+0.2
+0	0	0
+NULL
+NULL
+NULL
+NULL
+NULL
+NULL
+<ENDWEAPON>
+<ENDWEAPONFILE>
